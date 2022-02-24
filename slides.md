@@ -1,5 +1,5 @@
 ---
-theme: 'Apple Basic'
+theme: 'seriph'
 background: ./public/git.jpg
 class: 'text-center'
 highlighter: 'shiki'
@@ -20,6 +20,10 @@ src: ./src/gitconfig-common.md
 
 ---
 src: ./src/command.md
+---
+
+---
+src: ./src/pull-fetch.md
 ---
 
 # What is Slidev?
