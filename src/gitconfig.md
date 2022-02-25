@@ -9,12 +9,11 @@ Git 自带一个 git config 的工具来帮助设置控制 Git 外观和行为�
 ## 常用命令
 
 ```ts
-const hello = 'world'
-// $ git config --global user.name luoleijun
+$ git config --global user.name luoleijun
 
-// $ git config --global user.email luoleijun@gmail.com
+$ git config --global user.email luoleijun@gmail.com
 
-// $ git config —list
+$ git config —list
 
-// $ git config user.name
+$ git config user.name
 ```

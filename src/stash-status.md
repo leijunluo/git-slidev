@@ -10,4 +10,5 @@ $ git stash branch iss53 stash${0}
 # status
 
 ```bash
+$ git status
 ```
