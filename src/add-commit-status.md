@@ -9,7 +9,8 @@ $ git add README.md
 
 ```bash
 $ git commit
-$ git commit -m ""
+$ git commit -m "title"
+$ git commit -m "title" -m "body"
 ```
 
 # status

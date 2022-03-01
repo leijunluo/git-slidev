@@ -12,4 +12,12 @@ $ git branch
 ```bash
 $ git checkout master
 $ git checkout -b iss53
+$ git checkout -- path/to/file
+```
+
+# switch
+
+```bash
+$ git switch <branch>
+$ git switch -c <branch>
 ```

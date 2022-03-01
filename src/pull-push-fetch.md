@@ -1,17 +1,23 @@
+# fetch
+
+```bash
+$ git fetch
+```
+
 # pull
 
 ```bash
-$ git pull origin master
+$ git pull
+$ git pull <remote>
+$ git fetch && git merge
 ```
 
 # push
 
 ```bash
+$ git push -u origin HEAD
+$ git push
+
 $ git push origin master
-```
-
-# fetch
-
-```bash
-$ git fetch origin
+$ git push origin HEAD
 ```

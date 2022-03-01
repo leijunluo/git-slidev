@@ -47,7 +47,7 @@ src: ./src/basics.md
 ---
 
 ---
-src: ./src/one.md
+src: ./src/atomic-commit.md
 ---
 
 ---
@@ -55,5 +55,5 @@ src: ./src/commit-message.md
 ---
 
 ---
-src: ./src/command-ide.md
+src: ./src/cli-vs-gui.md
 ---
