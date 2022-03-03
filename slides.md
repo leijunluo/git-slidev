@@ -8,7 +8,7 @@ drawings:
   persist: false
 ---
 
-# Git 与 GitLab 分享
+# Git 分享
 
 ---
 src: ./src/gitconfig.md
