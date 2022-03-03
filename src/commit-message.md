@@ -1,5 +1,11 @@
 # Git commit message 该怎么写
 
+<div grid="~ cols-2 gap-6" class="relative">
+
+<div class="pr-3 border-r">
+
+##
+
 - 尽量写正文，不要只写一个标题
 - 用空行将标题与正文分开
 - 将主题行首字母大写
@@ -8,3 +14,17 @@
 - 标题和正文每行不超过 72 个字符（超过则手动换行，一个汉字算两个字符宽度）
 - 用正文来解释什么和为什么与如何
 - 正文的末尾附上相关参考资料的链接
+
+</div>
+<div v-click>
+
+##
+
+<div class="flex flex-col content-center items-end">
+  <img src="/commit-1.jpg" class="w-100" />
+
+  <img src="/commit-3.jpg" class="w-100 mt-5" />
+</div>
+
+</div>
+</div>

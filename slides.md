@@ -43,6 +43,18 @@ src: ./src/merge-rebase.md
 ---
 
 ---
+src: ./src/merge.md
+---
+
+---
+src: ./src/rebase.md
+---
+
+---
+src: ./src/merge-vs-rebase.md
+---
+
+---
 src: ./src/basics.md
 ---
 
@@ -56,4 +68,8 @@ src: ./src/commit-message.md
 
 ---
 src: ./src/cli-vs-gui.md
+---
+
+---
+src: ./src/gui.md
 ---
