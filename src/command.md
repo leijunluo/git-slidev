@@ -7,6 +7,7 @@
 | <span class="text-red-500">git commit</span> | <span class="text-red-500">git merge</span>    | git remote                                  |
 | git diff                                     | <span class="text-red-500">git rebase</span>   | <span class="text-red-500">git pull</span>  |
 | git init                                     | <span class="text-red-500">git stash</span>    | <span class="text-red-500">git push</span>  |
+| <span class="text-red-500">git log</span>                                    | -                                              | -                                           |
 | git show                                     | -                                              | -                                           |
 | <span class="text-red-500">git status</span> | -                                              | -                                           |
 | git tag                                      | -                                              | -                                           |
