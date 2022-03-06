@@ -21,3 +21,9 @@ $ git checkout -- path/to/file
 $ git switch <branch>
 $ git switch -c <branch>
 ```
+
+<!-- 
+checkout: 切换分支和恢复工作书文件。
+switch: 切换分支
+restore: 恢复工作树中已被修改后的文件。
+-->
