@@ -39,15 +39,7 @@ src: ./src/branch-checkout.md
 ---
 
 ---
-src: ./src/reset.md
----
-
----
 src: ./src/log.md
----
-
----
-src: ./src/merge-rebase.md
 ---
 
 ---
@@ -60,6 +52,14 @@ src: ./src/rebase.md
 
 ---
 src: ./src/merge-vs-rebase.md
+---
+
+---
+src: ./src/tree.md
+---
+
+---
+src: ./src/reset.md
 ---
 
 ---
