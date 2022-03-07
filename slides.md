@@ -1,6 +1,6 @@
 ---
 theme: 'seriph'
-background: ./public/git.jpg
+background: ./public/work.jpg
 class: 'text-center'
 highlighter: 'shiki'
 lineNumbers: false
@@ -63,10 +63,6 @@ src: ./src/reset.md
 ---
 
 ---
-src: ./src/basics.md
----
-
----
 src: ./src/atomic-commit.md
 ---
 
@@ -81,3 +77,10 @@ src: ./src/cli-vs-gui.md
 ---
 src: ./src/gui.md
 ---
+
+---
+layout: center
+end: ''
+---
+
+# 谢谢!

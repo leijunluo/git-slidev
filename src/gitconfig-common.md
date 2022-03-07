@@ -23,5 +23,10 @@ $ git config --global alias.ps push
 ```bash
 $ git config --global fetch.prune true
 $ git config --global pull.rebase true
-$ git config --global diff.colorMoved zebra
 ```
+
+<!-- 
+fetch.prune: 每次您从远程获取更改时，将会自动清除在本地存储库中的Git 对象。
+
+pull.rebase: pull 默认是使用 merge 行为从远程仓库拉取 commit。
+-->

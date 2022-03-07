@@ -14,3 +14,7 @@ $ git config --global user.email luoleijun@gmail.com
 $ git config --list
 $ git config user.name
 ```
+
+<!-- 
+~: 波浪线是 Shell 的模式扩展（echo ~）。 
+-->

@@ -1,3 +1,4 @@
+
 # log
 
 ```bash
@@ -13,8 +14,9 @@ $ git log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" 
 $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --decorate
 ```
 
-<!-- 
+<!--
 ls: 列表以简短的形式提交，带有颜色和分支/标记注释。
+
 ld: 列出相对于当前日期的单行提交 
 lds: 列出日期的单行提交。
 -->
