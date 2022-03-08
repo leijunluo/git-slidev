@@ -5,6 +5,4 @@
 - 为什么（方便代码审查、回滚等操作）
 - 举几个例子
 
-<div v-click>
 <img src="/commit-2.jpg" class="mt-10"/>
-</div>

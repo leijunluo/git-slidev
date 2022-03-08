@@ -63,6 +63,10 @@ src: ./src/reset.md
 ---
 
 ---
+src: ./src/advanced-usage.md
+---
+
+---
 src: ./src/atomic-commit.md
 ---
 

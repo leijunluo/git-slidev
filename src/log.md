@@ -4,14 +4,16 @@
 ```bash
 $ git log
 $ git log --graph 
-$ git log --stat
-$ git log --shortstat
-$ git log --name-status
 $ git log --oneline
-$ git log --pretty="format:%C(yellow)%h%C(red)%d\\ %C(reset)%s%C(blue)\\ [%cn]" --decorate
-$ git log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
-$ git log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
-$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --decorate
+```
+
+# alias
+
+```bash
+$ git config --global alias.ci 'log --pretty="format:%C(yellow)%h%C(red)%d\ %C(reset)%s%C(blue)\ [%cn]" --decorate'
+$ git config --global alias.ll 'log --pretty=format:"%C(yellow)%h\ %ad%Cred%d\ %Creset%s%Cblue\ [%cn]" --decorate --date=relative'
+$ git config --global alias.lds 'log --pretty=format:"%C(yellow)%h\ %ad%Cred%d\ %Creset%s%Cblue\ [%cn]" --decorate --date=short'
+$ git config --global alias.lg 'log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --date=relative --decorate'
 ```
 
 <!--

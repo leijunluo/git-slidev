@@ -12,7 +12,6 @@ $ git add README.md
 $ git commit
 $ git commit -m "title"
 $ git commit -m "title" -m "body"
-$ git commit --amend
 ```
 
 # status

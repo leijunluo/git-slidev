@@ -16,5 +16,5 @@ $ git config user.name
 ```
 
 <!-- 
-~: 波浪线是 Shell 的模式扩展（echo ~）。 
+~: 波浪线是 Bash 的模式扩展（echo ~）。 
 -->
