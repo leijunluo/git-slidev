@@ -11,14 +11,6 @@ drawings:
 # Git 分享
 
 ---
-src: ./src/gitconfig.md
----
-
----
-src: ./src/gitconfig-common.md
----
-
----
 src: ./src/command.md
 ---
 
@@ -31,11 +23,11 @@ src: ./src/pull-push-fetch.md
 ---
 
 ---
-src: ./src/stash-status.md
+src: ./src/branch-checkout.md
 ---
 
 ---
-src: ./src/branch-checkout.md
+src: ./src/stash-status.md
 ---
 
 ---
@@ -64,6 +56,14 @@ src: ./src/reset.md
 
 ---
 src: ./src/advanced-usage.md
+---
+
+---
+src: ./src/gitconfig.md
+---
+
+---
+src: ./src/gitconfig-common.md
 ---
 
 ---

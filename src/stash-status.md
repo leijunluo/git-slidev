@@ -7,8 +7,8 @@ $ git stash pop
 $ git stash branch iss53 stash${0}
 ```
 
-# status
+# fetch
 
 ```bash
-$ git status
+$ git fetch
 ```
