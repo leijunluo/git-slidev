@@ -75,6 +75,10 @@ src: ./src/commit-message.md
 ---
 
 ---
+src: ./src/git-bash.md
+---
+
+---
 src: ./src/cli-vs-gui.md
 ---
 

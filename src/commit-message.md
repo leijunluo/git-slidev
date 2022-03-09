@@ -21,9 +21,14 @@
 ##
 
 <div class="flex flex-col content-center items-end">
+
   <img src="/commit-1.jpg" class="w-100" />
 
+  <a target="_blank" href="http://gitlab.yanhuamedical.com/YmCloud/payment/-/merge_requests/29">统一支付对账平台：MR !29</a>
+  
   <img src="/commit-3.jpg" class="w-100 mt-5" />
+
+  <a target="_blanl" href="http://gitlab.yanhuamedical.com/YmCloud/payment/-/merge_requests/75">统一支付对账平台：MR !75</a>
 </div>
 
 </div>
