@@ -24,7 +24,9 @@ $ git switch -c <branch>
 
 <!--
 checkout: 切换分支和恢复工作书文件。
-switch: 切换分支
+
+switch: 切换分支。
+
 restore: 恢复工作树中已被修改后的文件。
 
 git push origin --delete dev (删除远程分支或者 tag)
