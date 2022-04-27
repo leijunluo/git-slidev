@@ -3,7 +3,10 @@ lockfileVersion: 5.3
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      '@slidev/cli': ^0.28.7
+    dependencies:
+      '@slidev/cli': 0.28.10
 
   packages/git:
     specifiers:

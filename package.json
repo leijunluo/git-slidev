@@ -1,10 +1,9 @@
 {
   "name": "ppt",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
   "description": "",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leijunluo/git-slidev.git"
@@ -14,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/leijunluo/git-slidev/issues"
   },
-  "homepage": "https://github.com/leijunluo/git-slidev#readme"
+  "homepage": "https://github.com/leijunluo/git-slidev#readme",
+  "dependencies": {
+    "@slidev/cli": "^0.28.7"
+  }
 }
