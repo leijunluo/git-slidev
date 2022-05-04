@@ -1,12 +1,14 @@
 ---
-theme: penguin
-colorSchema: 'auto'
+theme: ./theme
+colorSchema: auto
 layout: intro
+title: Business 2.0
 ---
 
 # Business 2.0
 
-🐧 ppt
+🐧 你只管写业务代码，剩下的我来...
+
 
 ---
 src: ./page/1.md
@@ -25,10 +27,6 @@ src: ./page/4.md
 ---
 
 ---
-src: ./page/5.md
----
-
----
 src: ./page/6.md
 ---
 
@@ -43,4 +41,15 @@ src: ./page/8.md
 ---
 src: ./page/9.md
 ---
-m
+
+---
+src: ./page/10.md
+---
+
+---
+src: ./page/11.md
+---
+
+---
+src: ./page/12.md
+---
