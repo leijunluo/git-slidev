@@ -23,8 +23,9 @@ const props = defineProps({
 <template>
   <div class="bg-main slidev-layout">
     <CornerCurves class="absolute transform bottom-0 right-0 flip-x" />
+    <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
     <LayoutHeader :logo-header="logoHeader" />
-    <div class="my-auto z-10">
+    <div class="z-10">
       <slot />
     </div>
     <LayoutFooter
