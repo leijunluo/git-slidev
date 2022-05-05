@@ -1,6 +1,6 @@
 ---
 theme: ./theme
-colorSchema: auto
+colorSchema: dark
 layout: intro
 title: Business 2.0
 ---
@@ -11,45 +11,41 @@ title: Business 2.0
 
 
 ---
-src: ./page/1.md
+src: ./page/reform.md
 ---
 
 ---
-src: ./page/2.md
+src: ./page/technology-stack.md
 ---
 
 ---
-src: ./page/3.md
+src: ./page/features.md
 ---
 
 ---
-src: ./page/4.md
+src: ./page/1.0-vs-2.0.md
 ---
 
 ---
-src: ./page/6.md
+src: ./page/how-use.md
 ---
 
 ---
-src: ./page/7.md
+src: ./page/plugin.md
 ---
 
 ---
-src: ./page/8.md
+src: ./page/middleware.md
 ---
 
 ---
-src: ./page/9.md
+src: ./page/slot.md
 ---
 
 ---
-src: ./page/10.md
+src: ./page/transfer.md
 ---
 
 ---
-src: ./page/11.md
----
-
----
-src: ./page/12.md
+src: ./page/config.md
 ---

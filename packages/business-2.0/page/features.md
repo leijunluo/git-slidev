@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: text-image
+media: '/business-2.0.png'
 ---
 
 # 特性
