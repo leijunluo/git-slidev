@@ -21,11 +21,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="bg-main slidev-layout">
-    <!-- <CornerCurves class="absolute transform bottom-0 right-0 flip-x" />
-    <CornerCurves class="absolute flip-z left-0 bottom-0 transform rotate-0" /> -->
-    <LayoutHeader :logo-header="logoHeader" />
-    <div class="z-15">
+  <div class="bg-main slidev-layout intro">
+    <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
+    <div class="flex flex-col justify-center text-center">
       <slot />
     </div>
     <LayoutFooter
@@ -36,3 +34,19 @@ const props = defineProps({
     />
   </div>
 </template>
+
+<style>
+.slidev-layout.intro {
+  h1 {
+    @apply text-6xl leading-20 font-title font-extrabold;
+  }
+
+  h1 + p {
+    @apply opacity-60 -mt-4 text-2xl;
+  }
+
+  a {
+    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
+  }
+}
+</style>

@@ -3,7 +3,7 @@
 增加 Webpack alias 配置
 
 ```ts
-import { IApi } from 'business'
+import { IApi } from 'deer'
 
 export default (api: IApi) => {
   api.chainWebpack((memo) => {

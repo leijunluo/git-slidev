@@ -2,8 +2,6 @@
 
 中间件是你想要在实例化 Vue 应用程序之前运行的 JavaScript 插件。
 
-`middleware` 是中间件存目录。中间件
-
 ```ts
 // middleware/router-login.js
 

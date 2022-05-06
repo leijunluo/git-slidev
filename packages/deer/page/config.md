@@ -1,9 +1,9 @@
 # 配置文件
 
-.businessrc.js 或者 config/config.js
+.deerrc.js 或者 config/config.js
 
 ```js
-// .businessrc.js
+// .deerrc.js
 
 export default {
   api: 'http://192.168.104.172:4000',

@@ -1,6 +1,6 @@
 ---
 layout: text-image
-media: '/business-2.0.png'
+media: '/deer.png'
 ---
 
 # 特性
