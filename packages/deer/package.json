@@ -8,6 +8,7 @@
   "dependencies": {
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.21.1",
     "slidev-theme-penguin": "^1.3.4",
     "vite-svg-loader": "^3.3.0"
   },
