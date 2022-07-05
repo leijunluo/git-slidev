@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "pnpm -r run build"
+    "build": "pnpm --filter deer run build"
   },
   "repository": {
     "type": "git",
