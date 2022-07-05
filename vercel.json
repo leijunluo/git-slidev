@@ -1,0 +1,7 @@
+{
+  "routes": [
+      { "src": "/deer/.*", "dest": "/packages/deer/dist/index.html" },
+      { "src": "/git/.*", "dest": "/packages/git/dist/index.html" },
+      { "src": "/.*", "dest": "/packages/git/dist/index.html" }
+  ]
+}
