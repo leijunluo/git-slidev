@@ -5,30 +5,28 @@ importers:
   .:
     specifiers:
       '@slidev/cli': ^0.28.7
-    dependencies:
-      '@slidev/cli': 0.28.10
-
-  packages/deer:
-    specifiers:
       '@slidev/theme-default': '*'
-      '@slidev/theme-seriph': '*'
+      '@slidev/theme-seriph': ^0.21.2
       playwright-chromium: ^1.21.1
-      slidev-theme-penguin: ^1.3.4
-      vite-svg-loader: ^3.3.0
+      pnpm: ^7.5.0
+      rimraf: ^3.0.2
+      slidev-theme-penguin: ^1.4.1
+      vite-svg-loader: ^3.4.0
     dependencies:
+      '@slidev/cli': 0.28.10_playwright-chromium@1.21.1
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.2
       playwright-chromium: 1.21.1
-      slidev-theme-penguin: 1.3.4
-      vite-svg-loader: 3.3.0
+      pnpm: 7.5.0
+      rimraf: 3.0.2
+      slidev-theme-penguin: 1.4.1
+      vite-svg-loader: 3.4.0
+
+  packages/deer:
+    specifiers: {}
 
   packages/git:
-    specifiers:
-      '@slidev/theme-default': '*'
-      '@slidev/theme-seriph': '*'
-    dependencies:
-      '@slidev/theme-default': 0.21.2
-      '@slidev/theme-seriph': 0.21.2
+    specifiers: {}
 
 packages:
 
@@ -136,7 +134,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli/0.28.10:
+  /@slidev/cli/0.28.10_playwright-chromium@1.21.1:
     resolution: {integrity: sha512-PJt20ufBEQuA/hPZy34wOH6rZVgObWWzzouu/dcPoDxikUHjL/vRkHqmEM2AlDct/6eGyRrp0O3nmVTwcmAr7g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -175,6 +173,7 @@ packages:
       open: 8.4.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
+      playwright-chromium: 1.21.1
       prismjs: 1.28.0
       prompts: 2.4.2
       resolve: 1.22.0
@@ -272,13 +271,13 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@slidev/types/0.27.20:
-    resolution: {integrity: sha512-w9Dh123hBaAde7cWbhrxbhp/h7Kt0uBYK6YhxAD5Zzj4JlKA8oyv3dvSw89+MD1UO1OJxPM040UZD//d5YqxZA==}
+  /@slidev/types/0.28.10:
+    resolution: {integrity: sha512-XcJ12giBaeSHxImlYuDfO1XW686kWDq4uoftnPZyIxhNew4FREsbOLY8oG5Nz5qn05qSsnSDQGo55EbantKvfg==}
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@slidev/types/0.28.10:
-    resolution: {integrity: sha512-XcJ12giBaeSHxImlYuDfO1XW686kWDq4uoftnPZyIxhNew4FREsbOLY8oG5Nz5qn05qSsnSDQGo55EbantKvfg==}
+  /@slidev/types/0.30.3:
+    resolution: {integrity: sha512-ucAa8M1UyKnnwu8q2+qZOaNN5fEDtnTz3t/WblQ4/O1iyQTJf+YduIWVEKuwtGjX0n3vBUGgujXtwyuBgYmxdw==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -2299,6 +2298,12 @@ packages:
     engines: {node: '>=12.13.0'}
     dev: false
 
+  /pnpm/7.5.0:
+    resolution: {integrity: sha512-sb9wJNyx/d8l3Gze2jI1y8BGNbb/ga+JT3SrGNiH+C5KbtZ4wmgePBWGjaiGugcpT9+vQ5MO//+QlVWhMCpedQ==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: false
+
   /popmotion/11.0.3:
     resolution: {integrity: sha512-Y55FLdj3UxkR7Vl3s7Qr4e9m0onSnP8W7d/xQLsoJM40vs6UKHFdygs6SWryasTZYqugMjm3BepCF4CWXDiHgA==}
     dependencies:
@@ -2484,14 +2489,12 @@ packages:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: false
 
-  /slidev-theme-penguin/1.3.4:
-    resolution: {integrity: sha512-iMSrlZk7qd1qEvPEeKwExedlguhhzx6gIc+aLQW10Xl3m7TI/ysHUKCOvOZBDK8fwfwBlwANAivp2DTD5efzLA==}
+  /slidev-theme-penguin/1.4.1:
+    resolution: {integrity: sha512-9Q2TIkTKqcCPMTF+1siOPK2aWUFDImpdC87tiaJcIelwvbvHI9I9o/lzmCiG1aZajN7sPEHj01RrmSslNlADhg==}
     dependencies:
-      '@slidev/types': 0.27.20
-      codemirror-theme-vars: 0.1.1
+      '@slidev/types': 0.30.3
       prism-theme-vars: 0.2.2
-      theme-vitesse: 0.1.14
-      vite-svg-loader: 3.3.0
+      vite-svg-loader: 3.4.0
     dev: false
 
   /smart-buffer/4.2.0:
@@ -2538,6 +2541,7 @@ packages:
 
   /stable/0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
+    deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'
     dev: false
 
   /stack-utils/2.0.5:
@@ -2821,8 +2825,8 @@ packages:
       - supports-color
     dev: false
 
-  /vite-svg-loader/3.3.0:
-    resolution: {integrity: sha512-3bvC4NoaBIr8e9DoiYBjC/C8zg83wfc565PiWhUfJML1X4nGbVsGImOabWX1ebah8EYlRwIhRXkFjh7UntF1dg==}
+  /vite-svg-loader/3.4.0:
+    resolution: {integrity: sha512-xD3yb1FX+f4l9/TmsYIqyki8ncpcVsZ2gEJFh/wLuNNqt55C8OJ+JlcMWOA/Z9gRA+ylV/TA1wmJLxzZkCRqlA==}
     dependencies:
       '@vue/compiler-sfc': 3.2.33
       svgo: 2.8.0

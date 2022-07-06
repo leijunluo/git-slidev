@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/deer", "destination": "/packages/deer/dist/index.html" }
-  ]
-}

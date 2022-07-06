@@ -1,13 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "slidev build",
     "dev": "slidev --open",
+    "build": "slidev build --base /git/ --out ../../dist/git",
     "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
   },
   "name": "git"
 }
