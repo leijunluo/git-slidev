@@ -1,28 +1,27 @@
 ---
 theme: ./theme
-colorSchema: dark
-layout: intro
 title: deer
+layout: intro
+highlighter: shiki
+lineNumbers: true
+colorSchema: dark
+# css: unocss
 ---
-
-<div class="fixed mb-8 right-98" style="color: rgba(52, 211, 153, var(--tw-text-opacity))">1.0</div>
 
 # deer
 
-🦌 你只管写业务代码，剩下的我来...
-
-<div class="text-xl text-gray-500 absolute bottom-2 right-3"> 注：Business 2.0 更名为 deer </div>
+🦌 你只管写代码，剩下的我来...
 
 ---
 src: ./page/reform.md
 ---
 
 ---
-src: ./page/features.md
+src: ./page/rate.md
 ---
 
 ---
-src: ./page/1.0-vs-2.0.md
+src: ./page/features.md
 ---
 
 ---
@@ -38,11 +37,39 @@ src: ./page/plugin.md
 ---
 
 ---
+src: ./page/business.md
+---
+
+---
 src: ./page/middleware.md
 ---
 
 ---
 src: ./page/slot.md
+---
+
+---
+src: ./page/migrate.md
+---
+
+---
+src: ./page/directory.md
+---
+
+---
+src: ./page/apis.md
+---
+
+---
+src: ./page/switch.md
+---
+
+---
+src: ./page/utils.md
+---
+
+---
+src: ./page/other.md
 ---
 
 ---

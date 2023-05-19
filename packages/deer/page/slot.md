@@ -1,6 +1,11 @@
 # 约定式插槽
 
-约定式插槽就是通过约定 `插槽组件` 在 `components` 文件夹下的路径，来实现自动注入到组建内部插槽上。
+通过约定 `组件插槽` 在 `components` 文件夹下的路径，来实现自动注入到组件插槽上。
+
+<div class="grid grid-cols-2 gap-4">
+  <span style="opacity: 0.7" class="text-center pb-10px">引入组件</span>
+  <span style="opacity: 0.7" class="text-center pb-10px">约定式插槽</span>
+</div>
 
 <div class="grid grid-cols-2 gap-4">
 
@@ -13,11 +18,12 @@
   </layout>
 </template>
 <script>
-  import Layout from '@business/component-layout'
-  export default {
-    components: { Layout }
-  }
+import Layout from '@@/components/layout'
+export default {
+  components: { Layout }
+}
 </script>
+
 ```
 
 ```vue
@@ -25,5 +31,6 @@
 <template>
   通过约定式插槽注入到底部信息栏～～～
 </template>
+
 ```
 </div>
