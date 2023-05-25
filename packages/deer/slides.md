@@ -73,9 +73,5 @@ src: ./page/other.md
 ---
 
 ---
-src: ./page/transfer.md
----
-
----
 src: ./page/conclusion.md
 ---
