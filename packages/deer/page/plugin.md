@@ -15,7 +15,7 @@ import { IApi } from 'deer'
 
 export default (api: IApi) => {
   api.chainWebpack((memo) => {
-    memo.resolve.alias.set('api', './api')
+    memo.resolve.alias.set('api', './apis')
   })
 }
 ```

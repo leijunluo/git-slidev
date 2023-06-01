@@ -23,7 +23,6 @@ export default {
   components: { Layout }
 }
 </script>
-
 ```
 
 ```vue
@@ -31,6 +30,5 @@ export default {
 <template>
   通过约定式插槽注入到底部信息栏～～～
 </template>
-
 ```
 </div>

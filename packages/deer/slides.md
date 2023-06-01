@@ -29,11 +29,11 @@ src: ./page/how-use.md
 ---
 
 ---
-src: ./page/config.md
+src: ./page/plugin.md
 ---
 
 ---
-src: ./page/plugin.md
+src: ./page/config.md
 ---
 
 ---
